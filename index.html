@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="src/css/style.css">
-    <link rel="shortcut icon" href="src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="icon" href="src/images/favicon-32x32.png" type="image/png">
     <title>Starbucks</title>
 </head>
+
 <body>
+    <!--HEADER-->
     <header>
         <nav class="navbar">
-            <img 
-             src="src/images/logo-starbucks.png " 
-             alt="Logo Starbucks"
-             class="logo">
+            <img src="src/images/logo-starbucks.png" alt="Logo Starbucks" class="logo">
             <button class="btn btn-mobile">
                 <i class="fa-solid fa-bars"></i>
             </button>
 
-            <ul id="nav-link" class="show">
+            <ul id="nav-links">
                 <li>
                     <a href="#home">Home</a>
                 </li>
@@ -34,10 +36,167 @@
                 </li>
             </ul>
 
-            <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank" class="btn btn-default">
+            <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
+                target="_blank" rel="noopener" class="btn btn-default">
                 Contatar </a>
 
         </nav>
     </header>
+    <!--MAIN-->
+    <main id="container">
+        <!--HOME-->
+        <section id="home">
+            <img src="src/images/detail.png" alt="starbucks-drink" class="home-img">
+            <h1 class="home-title">
+                Mais que um café, uma <span>experiência.</span>
+            </h1>
+            <p class="home-descrption">
+                Desfrute de um ambiente acolhedor e uma ampla seleção de bebidas e comidas deliciosas.
+            </p>
+            <div class="home-actions">
+                <a href="#" class="btn btn-default">
+                    Conhecer
+                </a>
+                <a href="#" class="btn btn-outline">
+                    Contatar
+                </a>
+
+            </div>
+        </section>
+
+
+        <!--TREDING-->
+        <section id="trending">
+            <h2 class="title">
+                Em Alta
+            </h2>
+            <div class="trending-cards">
+                <div class="trending-card">
+                    <img src="src/images/trending/card1.png" alt="starbucks Drink">
+
+                    <div class="trending-rate">
+                        <p>
+                            5 <i class="fa-solid fa-star"></i>
+                        </p>
+                    </div>
+                    <p class="trending-card-description">
+                        Frappucino
+                        <span>Avelã</span>
+                    </p>
+                </div>
+                <div class="trending-card">
+                    <img src="src/images/trending/card2.png" alt="starbucks Drink">
+
+                    <div class="trending-rate">
+                        <p>
+                            5 <i class="fa-solid fa-star"></i>
+                        </p>
+                    </div>
+                    <p class="trending-card-description">
+                        Frappucino
+                        <span>Pistache</span>
+                    </p>
+                </div>
+                <div class="trending-card">
+                    <img src="src/images/trending/card3.png" alt="starbucks Drink">
+
+                    <div class="trending-rate">
+                        <p>
+                            5 <i class="fa-solid fa-star"></i>
+                        </p>
+                    </div>
+                    <p class="trending-card-description">
+                        Frappucino
+                        <span>Morango</span>
+                    </p>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!--ABOUT-->
+        <section id="about">
+            <h2 class="title">
+                Sobre Nós
+            </h2>
+
+            <div class="about-content">
+                <img src="src/images/about/about-us.png" alt="Sobre Nós" class="about-image">
+                <div class="about-info">
+                    <h3>
+                        Nossa <span>História</span>
+                    </h3>
+                    <p>
+                        A Starbucks é uma das maiores redes de cafeterias do mundo, conhecida por oferecer uma
+                        experiência única aos seus clientes. Fundada em 1971 em Seattle, nos Estados Unidos, a empresa
+                        se expandiu globalmente, tornando-se um ícone da cultura do café. Com um compromisso com a
+                        qualidade, sustentabilidade e inovação, a Starbucks continua a encantar os amantes de café com
+                        suas bebidas artesanais e ambiente acolhedor.
+                    </p>
+
+                </div>
+                <div class="about-info">
+                    <h3>
+                        Nosso <span>Propósito</span>
+                    </h3>
+                    <p>
+                        Inspirar momentos de conexão e bem-estar por meio do café.Acreitamos que cada xicara de café
+                        pode ser uma oportunidade para criar memórias significativas e fortalecer laços entre pessoas.
+                        Nosso <span></span>compromisso</span> é proporcionar experiências que vão além do simples ato de
+                        beber café, promovendo um ambiente acolhedor e inclusivo para todos os clientes.
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+        <!--PRODUCTS-->
+        <section id="products">
+            <h2 class="title">
+                Novidades
+            </h2>
+
+            <div class="products-cards">
+                <div class="product-card">
+                    <img src="src/images/products/1.png" alt="starbucks Drink">
+                    <div class="product-content">
+                        <h3>
+                            Moccha
+                            <span>Chocolate</span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="src/images/products/2.png" alt="starbucks Drink">
+                    <div class="product-content">
+                        <h3>
+                            Moccha
+                            <span>Morango</span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="src/images/products/3.png" alt="starbucks Drink">
+                    <div class="product-content">
+                        <h3>
+                            Moccha
+                            <span>Café</span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="src/images/products/4.png" alt="starbucks Drink">
+                    <div class="product-content">
+                        <h3>
+                            Moccha
+                            <span>Manga</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script src="src/js/script.js"></script>
 </body>
+
 </html>
